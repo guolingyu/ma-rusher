@@ -1,0 +1,2286 @@
+{
+    "cardmap": {
+        "355": {
+            "cost": 20,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_355.jpg",
+            "masterCardId": 355,
+            "name": "魔装型罗宾汉",
+            "star": 5
+        },
+        "353": {
+            "cost": 16,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_353.jpg",
+            "masterCardId": 353,
+            "name": "魔装型兰斯洛特",
+            "star": 5
+        },
+        "373": {
+            "cost": 16,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_373.jpg",
+            "masterCardId": 373,
+            "name": "魔装型罗恩格林",
+            "star": 5
+        },
+        "672": {
+            "cost": 17,
+            "group": "技术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_672.jpg",
+            "masterCardId": 672,
+            "name": "魔装型奥莲",
+            "star": 5
+        },
+        "354": {
+            "cost": 24,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_354.jpg",
+            "masterCardId": 354,
+            "name": "魔装型毕斯克拉乌莉特",
+            "star": 6
+        },
+        "372": {
+            "cost": 22,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_372.jpg",
+            "masterCardId": 372,
+            "name": "魔装型亚瑟 -魔法之派-",
+            "star": 6
+        },
+        "374": {
+            "cost": 16,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_374.jpg",
+            "masterCardId": 374,
+            "name": "魔装型君士坦丁",
+            "star": 5
+        },
+        "363": {
+            "cost": 20,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_363.jpg",
+            "masterCardId": 363,
+            "name": "魔装型莫德雷德",
+            "star": 5
+        },
+        "364": {
+            "cost": 23,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_364.jpg",
+            "masterCardId": 364,
+            "name": "魔装型提妮亚",
+            "star": 6
+        },
+        "668": {
+            "cost": 19,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_668.jpg",
+            "masterCardId": 668,
+            "name": "魔装型雷诺&妮诺",
+            "star": 6
+        },
+        "669": {
+            "cost": 20,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_669.jpg",
+            "masterCardId": 669,
+            "name": "魔装型艾露卡",
+            "star": 5
+        },
+        "339": {
+            "cost": 23,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_339.jpg",
+            "masterCardId": 339,
+            "name": "学徒型卑弥呼",
+            "star": 6
+        },
+        "35": {
+            "cost": 6,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_35.jpg",
+            "masterCardId": 35,
+            "name": "特殊型哥罗亚斯",
+            "star": 2
+        },
+        "36": {
+            "cost": 8,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_36.jpg",
+            "masterCardId": 36,
+            "name": "预言型梅林",
+            "star": 3
+        },
+        "330": {
+            "cost": 23,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_330.jpg",
+            "masterCardId": 330,
+            "name": "学徒型格妮妲",
+            "star": 5
+        },
+        "159": {
+            "cost": 14,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_159.jpg",
+            "masterCardId": 159,
+            "name": "异界的女王",
+            "star": 5
+        },
+        "33": {
+            "cost": 9,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_33.jpg",
+            "masterCardId": 33,
+            "name": "第二型格里弗雷特",
+            "star": 4
+        },
+        "34": {
+            "cost": 7,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_34.jpg",
+            "masterCardId": 34,
+            "name": "第二型贝兰",
+            "star": 3
+        },
+        "158": {
+            "cost": 11,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_158.jpg",
+            "masterCardId": 158,
+            "name": "绿之骑士",
+            "star": 4
+        },
+        "39": {
+            "cost": 19,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_39.jpg",
+            "masterCardId": 39,
+            "name": "第一型莫德雷德",
+            "star": 6
+        },
+        "157": {
+            "cost": 15,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_157.jpg",
+            "masterCardId": 157,
+            "name": "塔尔威斯提格",
+            "star": 5
+        },
+        "156": {
+            "cost": 18,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_156.jpg",
+            "masterCardId": 156,
+            "name": "姆莉安",
+            "star": 5
+        },
+        "155": {
+            "cost": 17,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_155.jpg",
+            "masterCardId": 155,
+            "name": "匹克西",
+            "star": 4
+        },
+        "37": {
+            "cost": 9,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_37.jpg",
+            "masterCardId": 37,
+            "name": "虏获型摩高斯",
+            "star": 4
+        },
+        "38": {
+            "cost": 16,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_38.jpg",
+            "masterCardId": 38,
+            "name": "第一型高文",
+            "star": 5
+        },
+        "154": {
+            "cost": 9,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_154.jpg",
+            "masterCardId": 154,
+            "name": "普卡",
+            "star": 5
+        },
+        "601": {
+            "cost": 15,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_601.jpg",
+            "masterCardId": 601,
+            "name": "特异型太乙真人",
+            "star": 5
+        },
+        "152": {
+            "cost": 15,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_152.jpg",
+            "masterCardId": 152,
+            "name": "格拉盖丝安努恩",
+            "star": 6
+        },
+        "153": {
+            "cost": 23,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_153.jpg",
+            "masterCardId": 153,
+            "name": "古亚加",
+            "star": 5
+        },
+        "600": {
+            "cost": 14,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_600.jpg",
+            "masterCardId": 600,
+            "name": "特异型小龙女",
+            "star": 5
+        },
+        "150": {
+            "cost": 12,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_150.jpg",
+            "masterCardId": 150,
+            "name": "雪莉柯特",
+            "star": 4
+        },
+        "151": {
+            "cost": 10,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_151.jpg",
+            "masterCardId": 151,
+            "name": "佩格帕乌拉",
+            "star": 3
+        },
+        "43": {
+            "cost": 12,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_43.jpg",
+            "masterCardId": 43,
+            "name": "第二型柯尔格利万斯",
+            "star": 4
+        },
+        "42": {
+            "cost": 11,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_42.jpg",
+            "masterCardId": 42,
+            "name": "外敌型本",
+            "star": 2
+        },
+        "41": {
+            "cost": 5,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_41.jpg",
+            "masterCardId": 41,
+            "name": "特殊型尤文之狮",
+            "star": 1
+        },
+        "40": {
+            "cost": 3,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_40.jpg",
+            "masterCardId": 40,
+            "name": "制御型贝德维尔",
+            "star": 1
+        },
+        "609": {
+            "cost": 17,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_609.jpg",
+            "masterCardId": 609,
+            "name": "炎夏型丝麦茵",
+            "star": 5
+        },
+        "608": {
+            "cost": 19,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_608.jpg",
+            "masterCardId": 608,
+            "name": "特异型杨过小龙女",
+            "star": 5
+        },
+        "607": {
+            "cost": 16,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_607.jpg",
+            "masterCardId": 607,
+            "name": "第二型骨姬",
+            "star": 5
+        },
+        "606": {
+            "cost": 18,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_606.jpg",
+            "masterCardId": 606,
+            "name": "特异型天山童姥",
+            "star": 6
+        },
+        "605": {
+            "cost": 14,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_605.jpg",
+            "masterCardId": 605,
+            "name": "幻兽型月兔",
+            "star": 5
+        },
+        "604": {
+            "cost": 17,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_604.jpg",
+            "masterCardId": 604,
+            "name": "幻兽型梦魔亚",
+            "star": 5
+        },
+        "603": {
+            "cost": 16,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_603.jpg",
+            "masterCardId": 603,
+            "name": "特异型杨过",
+            "star": 5
+        },
+        "602": {
+            "cost": 18,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_602.jpg",
+            "masterCardId": 602,
+            "name": "第一型塞拉利昂",
+            "star": 6
+        },
+        "205": {
+            "cost": 10,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_205.jpg",
+            "masterCardId": 205,
+            "name": "支援型艾吉",
+            "star": 3
+        },
+        "200": {
+            "cost": 11,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_200.jpg",
+            "masterCardId": 200,
+            "name": "支援型基安蒂",
+            "star": 3
+        },
+        "201": {
+            "cost": 14,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_201.jpg",
+            "masterCardId": 201,
+            "name": "支援型梅尔特",
+            "star": 4
+        },
+        "22": {
+            "cost": 10,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_22.jpg",
+            "masterCardId": 22,
+            "name": "特异型恺撒",
+            "star": 4
+        },
+        "341": {
+            "cost": 11,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_341.jpg",
+            "masterCardId": 341,
+            "name": "学徒型克莱尔",
+            "star": 4
+        },
+        "23": {
+            "cost": 17,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_23.jpg",
+            "masterCardId": 23,
+            "name": "特异型希格露恩",
+            "star": 6
+        },
+        "24": {
+            "cost": 16,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_24.jpg",
+            "masterCardId": 24,
+            "name": "特异型纳杰吉塔",
+            "star": 4
+        },
+        "25": {
+            "cost": 13,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_25.jpg",
+            "masterCardId": 25,
+            "name": "特异型汉尼拔",
+            "star": 4
+        },
+        "26": {
+            "cost": 10,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_26.jpg",
+            "masterCardId": 26,
+            "name": "特异型玛丽",
+            "star": 3
+        },
+        "206": {
+            "cost": 11,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_206.jpg",
+            "masterCardId": 206,
+            "name": "第二型弗朗西斯",
+            "star": 3
+        },
+        "27": {
+            "cost": 13,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_27.jpg",
+            "masterCardId": 27,
+            "name": "特异型罗宾汉",
+            "star": 5
+        },
+        "207": {
+            "cost": 13,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_207.jpg",
+            "masterCardId": 207,
+            "name": "支援型尤妮亚",
+            "star": 4
+        },
+        "208": {
+            "cost": 8,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_208.jpg",
+            "masterCardId": 208,
+            "name": "支援型爱尔兰",
+            "star": 2
+        },
+        "29": {
+            "cost": 16,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_29.jpg",
+            "masterCardId": 29,
+            "name": "复制型渔夫王",
+            "star": 4
+        },
+        "3": {
+            "cost": 9,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_3.jpg",
+            "masterCardId": 3,
+            "name": "支援型金发伊索德",
+            "star": 4
+        },
+        "2": {
+            "cost": 10,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_2.jpg",
+            "masterCardId": 2,
+            "name": "第二型加雷斯",
+            "star": 4
+        },
+        "1": {
+            "cost": 19,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_1.jpg",
+            "masterCardId": 1,
+            "name": "第一型兰斯洛特",
+            "star": 5
+        },
+        "30": {
+            "cost": 10,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_30.jpg",
+            "masterCardId": 30,
+            "name": "试作型布兰迪哥利斯",
+            "star": 3
+        },
+        "7": {
+            "cost": 10,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_7.jpg",
+            "masterCardId": 7,
+            "name": "支援型阿斯特拉艾琳",
+            "star": 4
+        },
+        "405": {
+            "cost": 16,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_405.jpg",
+            "masterCardId": 405,
+            "name": "库鲁敏",
+            "star": 5
+        },
+        "6": {
+            "cost": 19,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_6.jpg",
+            "masterCardId": 6,
+            "name": "复原型乌瑟",
+            "star": 4
+        },
+        "404": {
+            "cost": 99,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_404.jpg",
+            "masterCardId": 404,
+            "name": "极限突破切尔莉",
+            "star": 6
+        },
+        "340": {
+            "cost": 21,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_340.jpg",
+            "masterCardId": 340,
+            "name": "学徒型艾妮多",
+            "star": 6
+        },
+        "5": {
+            "cost": 7,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_5.jpg",
+            "masterCardId": 5,
+            "name": "第二型崔斯坦",
+            "star": 3
+        },
+        "407": {
+            "cost": 13,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_407.jpg",
+            "masterCardId": 407,
+            "name": "学徒型尼卡尔",
+            "star": 4
+        },
+        "32": {
+            "cost": 14,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_32.jpg",
+            "masterCardId": 32,
+            "name": "试作型洛特",
+            "star": 4
+        },
+        "4": {
+            "cost": 5,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_4.jpg",
+            "masterCardId": 4,
+            "name": "支援型莉奥妮丝",
+            "star": 1
+        },
+        "160": {
+            "cost": 8,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_160.jpg",
+            "masterCardId": 160,
+            "name": "选拔骑士",
+            "star": 3
+        },
+        "31": {
+            "cost": 13,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_31.jpg",
+            "masterCardId": 31,
+            "name": "试作型利安斯",
+            "star": 3
+        },
+        "548": {
+            "cost": 14,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_548.jpg",
+            "masterCardId": 548,
+            "name": "幻兽型天马",
+            "star": 5
+        },
+        "9": {
+            "cost": 3,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_9.jpg",
+            "masterCardId": 9,
+            "name": "支援型依缇尔",
+            "star": 1
+        },
+        "8": {
+            "cost": 3,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_8.jpg",
+            "masterCardId": 8,
+            "name": "支援型丽奈特",
+            "star": 2
+        },
+        "215": {
+            "cost": 9,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_215.jpg",
+            "masterCardId": 215,
+            "name": "支援型乔治",
+            "star": 2
+        },
+        "319": {
+            "cost": 20,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_319.jpg",
+            "masterCardId": 319,
+            "name": "学徒型橄榄石",
+            "star": 5
+        },
+        "216": {
+            "cost": 16,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_216.jpg",
+            "masterCardId": 216,
+            "name": "支援型艾多尔利亚",
+            "star": 4
+        },
+        "19": {
+            "cost": 5,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_19.jpg",
+            "masterCardId": 19,
+            "name": "第二型达玛斯",
+            "star": 2
+        },
+        "219": {
+            "cost": 14,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_219.jpg",
+            "masterCardId": 219,
+            "name": "支援型乌妮莉",
+            "star": 4
+        },
+        "17": {
+            "cost": 5,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_17.jpg",
+            "masterCardId": 17,
+            "name": "第二型艾力克",
+            "star": 2
+        },
+        "179": {
+            "cost": 11,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_179.jpg",
+            "masterCardId": 179,
+            "name": "支援型潘茜",
+            "star": 3
+        },
+        "18": {
+            "cost": 5,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_18.jpg",
+            "masterCardId": 18,
+            "name": "第二型玛洛斯",
+            "star": 1
+        },
+        "178": {
+            "cost": 13,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_178.jpg",
+            "masterCardId": 178,
+            "name": "支援型提妮亚",
+            "star": 4
+        },
+        "217": {
+            "cost": 13,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_217.jpg",
+            "masterCardId": 217,
+            "name": "支援型兰克",
+            "star": 3
+        },
+        "15": {
+            "cost": 4,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_15.jpg",
+            "masterCardId": 15,
+            "name": "第二型兰玛洛克",
+            "star": 1
+        },
+        "177": {
+            "cost": 13,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_177.jpg",
+            "masterCardId": 177,
+            "name": "支援型芙瓦妮塔",
+            "star": 4
+        },
+        "218": {
+            "cost": 15,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_218.jpg",
+            "masterCardId": 218,
+            "name": "支援型罗萨莉亚",
+            "star": 4
+        },
+        "176": {
+            "cost": 9,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_176.jpg",
+            "masterCardId": 176,
+            "name": "支援型甜心",
+            "star": 4
+        },
+        "16": {
+            "cost": 10,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_16.jpg",
+            "masterCardId": 16,
+            "name": "试作型伏提庚",
+            "star": 1
+        },
+        "310": {
+            "cost": 23,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_310.jpg",
+            "masterCardId": 310,
+            "name": "炎夏型妮妙",
+            "star": 6
+        },
+        "13": {
+            "cost": 5,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_13.jpg",
+            "masterCardId": 13,
+            "name": "第二型加荷里斯",
+            "star": 2
+        },
+        "311": {
+            "cost": 20,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_311.jpg",
+            "masterCardId": 311,
+            "name": "炎夏型桂妮薇儿",
+            "star": 5
+        },
+        "11": {
+            "cost": 7,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_11.jpg",
+            "masterCardId": 11,
+            "name": "亚瑟 -剑术之城-",
+            "star": 3
+        },
+        "12": {
+            "cost": 5,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_12.jpg",
+            "masterCardId": 12,
+            "name": "第二型昂兹雷克",
+            "star": 2
+        },
+        "21": {
+            "cost": 7,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_21.jpg",
+            "masterCardId": 21,
+            "name": "特异型奥德修斯",
+            "star": 2
+        },
+        "20": {
+            "cost": 16,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_20.jpg",
+            "masterCardId": 20,
+            "name": "特异型威廉",
+            "star": 4
+        },
+        "623": {
+            "cost": 18,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_623.jpg",
+            "masterCardId": 623,
+            "name": "学徒型小龙女",
+            "star": 5
+        },
+        "175": {
+            "cost": 15,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_175.jpg",
+            "masterCardId": 175,
+            "name": "第二型橄榄石",
+            "star": 5
+        },
+        "622": {
+            "cost": 14,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_622.jpg",
+            "masterCardId": 622,
+            "name": "学徒型希绘美",
+            "star": 5
+        },
+        "621": {
+            "cost": 15,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_621.jpg",
+            "masterCardId": 621,
+            "name": "学徒型菲妮斯",
+            "star": 5
+        },
+        "620": {
+            "cost": 17,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_620.jpg",
+            "masterCardId": 620,
+            "name": "学徒型德斯菲亚",
+            "star": 5
+        },
+        "627": {
+            "cost": 18,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_627.jpg",
+            "masterCardId": 627,
+            "name": "学徒型菈婕娅",
+            "star": 5
+        },
+        "626": {
+            "cost": 18,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_626.jpg",
+            "masterCardId": 626,
+            "name": "学徒型薇缇·莉安娜",
+            "star": 5
+        },
+        "625": {
+            "cost": 18,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_625.jpg",
+            "masterCardId": 625,
+            "name": "学徒型茜丝莉莉",
+            "star": 5
+        },
+        "624": {
+            "cost": 17,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_624.jpg",
+            "masterCardId": 624,
+            "name": "学徒型聂可儿",
+            "star": 5
+        },
+        "629": {
+            "cost": 22,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_629.jpg",
+            "masterCardId": 629,
+            "name": "学徒型玛蒂莎",
+            "star": 6
+        },
+        "628": {
+            "cost": 21,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_628.jpg",
+            "masterCardId": 628,
+            "name": "学徒型柯莉·弗罗娜",
+            "star": 5
+        },
+        "223": {
+            "cost": 16,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_223.jpg",
+            "masterCardId": 223,
+            "name": "波寇",
+            "star": 5
+        },
+        "224": {
+            "cost": 13,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_224.jpg",
+            "masterCardId": 224,
+            "name": "西西莉亚",
+            "star": 5
+        },
+        "327": {
+            "cost": 9,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_327.jpg",
+            "masterCardId": 327,
+            "name": "第二型蕾克香",
+            "star": 3
+        },
+        "329": {
+            "cost": 16,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_329.jpg",
+            "masterCardId": 329,
+            "name": "学徒型海克特·德·玛力斯",
+            "star": 5
+        },
+        "227": {
+            "cost": 13,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_227.jpg",
+            "masterCardId": 227,
+            "name": "支援型奥达",
+            "star": 3
+        },
+        "323": {
+            "cost": 8,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_323.jpg",
+            "masterCardId": 323,
+            "name": "支援型摩洛佐夫",
+            "star": 3
+        },
+        "188": {
+            "cost": 10,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_188.jpg",
+            "masterCardId": 188,
+            "name": "第二型丝瓦莉",
+            "star": 3
+        },
+        "320": {
+            "cost": 17,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_320.jpg",
+            "masterCardId": 320,
+            "name": "学徒型玛丽",
+            "star": 4
+        },
+        "321": {
+            "cost": 25,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_321.jpg",
+            "masterCardId": 321,
+            "name": "学徒型加雷斯",
+            "star": 6
+        },
+        "180": {
+            "cost": 14,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_180.jpg",
+            "masterCardId": 180,
+            "name": "支援型诗多莲",
+            "star": 5
+        },
+        "10": {
+            "cost": 8,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_10.jpg",
+            "masterCardId": 10,
+            "name": "支援型白手伊索德",
+            "star": 3
+        },
+        "181": {
+            "cost": 9,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_181.jpg",
+            "masterCardId": 181,
+            "name": "第二型丝莉特",
+            "star": 2
+        },
+        "182": {
+            "cost": 7,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_182.jpg",
+            "masterCardId": 182,
+            "name": "第二型切利尼",
+            "star": 2
+        },
+        "610": {
+            "cost": 19,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_610.jpg",
+            "masterCardId": 610,
+            "name": "炎夏型琪妮安",
+            "star": 5
+        },
+        "612": {
+            "cost": 18,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_612.jpg",
+            "masterCardId": 612,
+            "name": "炎夏型莉卡纳",
+            "star": 5
+        },
+        "611": {
+            "cost": 15,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_611.jpg",
+            "masterCardId": 611,
+            "name": "炎夏型布露丹",
+            "star": 5
+        },
+        "614": {
+            "cost": 25,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_614.jpg",
+            "masterCardId": 614,
+            "name": "炎夏型塞拉利昂",
+            "star": 6
+        },
+        "613": {
+            "cost": 16,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_613.jpg",
+            "masterCardId": 613,
+            "name": "炎夏型诺蕾",
+            "star": 5
+        },
+        "616": {
+            "cost": 14,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_616.jpg",
+            "masterCardId": 616,
+            "name": "学徒型波比",
+            "star": 5
+        },
+        "615": {
+            "cost": 14,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_615.jpg",
+            "masterCardId": 615,
+            "name": "炎夏型艾丽菲尔",
+            "star": 4
+        },
+        "618": {
+            "cost": 16,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_618.jpg",
+            "masterCardId": 618,
+            "name": "学徒型奥莉薇尔",
+            "star": 5
+        },
+        "617": {
+            "cost": 18,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_617.jpg",
+            "masterCardId": 617,
+            "name": "学徒型莉莉妮特",
+            "star": 5
+        },
+        "619": {
+            "cost": 20,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_619.jpg",
+            "masterCardId": 619,
+            "name": "学徒型佩罗妮",
+            "star": 6
+        },
+        "116": {
+            "cost": 16,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_116.jpg",
+            "masterCardId": 116,
+            "name": "树妖",
+            "star": 5
+        },
+        "79": {
+            "cost": 6,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_79.jpg",
+            "masterCardId": 79,
+            "name": "第二型提尔拉蒙",
+            "star": 1
+        },
+        "117": {
+            "cost": 10,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_117.jpg",
+            "masterCardId": 117,
+            "name": "复制型菲",
+            "star": 5
+        },
+        "114": {
+            "cost": 20,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_114.jpg",
+            "masterCardId": 114,
+            "name": "塔姆琳",
+            "star": 5
+        },
+        "78": {
+            "cost": 4,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_78.jpg",
+            "masterCardId": 78,
+            "name": "支援型奥尔特莉特",
+            "star": 1
+        },
+        "77": {
+            "cost": 14,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_77.jpg",
+            "masterCardId": 77,
+            "name": "归化型妮妙",
+            "star": 5
+        },
+        "115": {
+            "cost": 11,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_115.jpg",
+            "masterCardId": 115,
+            "name": "杜拉尔汗",
+            "star": 3
+        },
+        "112": {
+            "cost": 14,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_112.jpg",
+            "masterCardId": 112,
+            "name": "凯特西",
+            "star": 5
+        },
+        "113": {
+            "cost": 17,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_113.jpg",
+            "masterCardId": 113,
+            "name": "凯尔皮",
+            "star": 5
+        },
+        "110": {
+            "cost": 20,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_110.jpg",
+            "masterCardId": 110,
+            "name": "虏获型摩根",
+            "star": 5
+        },
+        "111": {
+            "cost": 9,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_111.jpg",
+            "masterCardId": 111,
+            "name": "复制型艾尔",
+            "star": 5
+        },
+        "118": {
+            "cost": 14,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_118.jpg",
+            "masterCardId": 118,
+            "name": "美人鱼",
+            "star": 5
+        },
+        "119": {
+            "cost": 10,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_119.jpg",
+            "masterCardId": 119,
+            "name": "玛纳南",
+            "star": 1
+        },
+        "82": {
+            "cost": 6,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_82.jpg",
+            "masterCardId": 82,
+            "name": "支援型布兰克韦恩",
+            "star": 2
+        },
+        "83": {
+            "cost": 3,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_83.jpg",
+            "masterCardId": 83,
+            "name": "支援型贝莉珊",
+            "star": 1
+        },
+        "80": {
+            "cost": 12,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_80.jpg",
+            "masterCardId": 80,
+            "name": "第二型贝琳",
+            "star": 4
+        },
+        "81": {
+            "cost": 7,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_81.jpg",
+            "masterCardId": 81,
+            "name": "亚瑟 -魔法之派-",
+            "star": 3
+        },
+        "86": {
+            "cost": 11,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_86.jpg",
+            "masterCardId": 86,
+            "name": "支援型艾妮多",
+            "star": 4
+        },
+        "87": {
+            "cost": 7,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_87.jpg",
+            "masterCardId": 87,
+            "name": "支援型艾尔莎",
+            "star": 1
+        },
+        "84": {
+            "cost": 7,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_84.jpg",
+            "masterCardId": 84,
+            "name": "支援型拉格妮尔",
+            "star": 2
+        },
+        "85": {
+            "cost": 4,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_85.jpg",
+            "masterCardId": 85,
+            "name": "第二型布鲁诺",
+            "star": 1
+        },
+        "67": {
+            "cost": 8,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_67.jpg",
+            "masterCardId": 67,
+            "name": "试作型尤廉斯",
+            "star": 3
+        },
+        "125": {
+            "cost": 14,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_125.jpg",
+            "masterCardId": 125,
+            "name": "外敌型卢西乌斯",
+            "star": 4
+        },
+        "126": {
+            "cost": 6,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_126.jpg",
+            "masterCardId": 126,
+            "name": "第二型柏德玛戈斯",
+            "star": 1
+        },
+        "66": {
+            "cost": 5,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_66.jpg",
+            "masterCardId": 66,
+            "name": "教练型凯",
+            "star": 1
+        },
+        "69": {
+            "cost": 4,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_69.jpg",
+            "masterCardId": 69,
+            "name": "第二型路坎",
+            "star": 2
+        },
+        "127": {
+            "cost": 6,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_127.jpg",
+            "masterCardId": 127,
+            "name": "第二型吉夫雷斯",
+            "star": 2
+        },
+        "300": {
+            "cost": 18,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_300.jpg",
+            "masterCardId": 300,
+            "name": "炎夏型伊莱恩",
+            "star": 4
+        },
+        "128": {
+            "cost": 14,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_128.jpg",
+            "masterCardId": 128,
+            "name": "第二型索尔",
+            "star": 5
+        },
+        "68": {
+            "cost": 4,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_68.jpg",
+            "masterCardId": 68,
+            "name": "第二型伯纳德",
+            "star": 1
+        },
+        "121": {
+            "cost": 13,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_121.jpg",
+            "masterCardId": 121,
+            "name": "莉瓦亚珊",
+            "star": 5
+        },
+        "122": {
+            "cost": 9,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_122.jpg",
+            "masterCardId": 122,
+            "name": "露",
+            "star": 3
+        },
+        "123": {
+            "cost": 12,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_123.jpg",
+            "masterCardId": 123,
+            "name": "蕾普菈荷",
+            "star": 5
+        },
+        "124": {
+            "cost": 2,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_124.jpg",
+            "masterCardId": 124,
+            "name": "第二型毕斯克拉乌莉特",
+            "star": 2
+        },
+        "306": {
+            "cost": 20,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_306.jpg",
+            "masterCardId": 306,
+            "name": "支援型克罗基思",
+            "star": 4
+        },
+        "308": {
+            "cost": 19,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_308.jpg",
+            "masterCardId": 308,
+            "name": "炎夏型加拉哈德",
+            "star": 4
+        },
+        "307": {
+            "cost": 21,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_307.jpg",
+            "masterCardId": 307,
+            "name": "炎夏型艾尔",
+            "star": 5
+        },
+        "129": {
+            "cost": 5,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_129.jpg",
+            "masterCardId": 129,
+            "name": "第二型格罗马索玛吉亚",
+            "star": 2
+        },
+        "309": {
+            "cost": 17,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_309.jpg",
+            "masterCardId": 309,
+            "name": "炎夏型摩根",
+            "star": 4
+        },
+        "70": {
+            "cost": 8,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_70.jpg",
+            "masterCardId": 70,
+            "name": "虏获型魔女伊莱恩",
+            "star": 4
+        },
+        "71": {
+            "cost": 20,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_71.jpg",
+            "masterCardId": 71,
+            "name": "王位型君士坦丁",
+            "star": 6
+        },
+        "120": {
+            "cost": 11,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_120.jpg",
+            "masterCardId": 120,
+            "name": "复制型莉芙",
+            "star": 5
+        },
+        "72": {
+            "cost": 15,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_72.jpg",
+            "masterCardId": 72,
+            "name": "第一型加拉哈德",
+            "star": 5
+        },
+        "73": {
+            "cost": 7,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_73.jpg",
+            "masterCardId": 73,
+            "name": "第二型艾恩赛德",
+            "star": 1
+        },
+        "75": {
+            "cost": 6,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_75.jpg",
+            "masterCardId": 75,
+            "name": "第二型戈特弗里德",
+            "star": 2
+        },
+        "76": {
+            "cost": 12,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_76.jpg",
+            "masterCardId": 76,
+            "name": "第二型罗恩格林",
+            "star": 3
+        },
+        "134": {
+            "cost": 12,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_134.jpg",
+            "masterCardId": 134,
+            "name": "支援型格妮妲",
+            "star": 4
+        },
+        "135": {
+            "cost": 4,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_135.jpg",
+            "masterCardId": 135,
+            "name": "第二型罗恩法尔",
+            "star": 2
+        },
+        "132": {
+            "cost": 3,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_132.jpg",
+            "masterCardId": 132,
+            "name": "第二型小波尔斯",
+            "star": 1
+        },
+        "59": {
+            "cost": 18,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_59.jpg",
+            "masterCardId": 59,
+            "name": "特异型贞德",
+            "star": 5
+        },
+        "138": {
+            "cost": 7,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_138.jpg",
+            "masterCardId": 138,
+            "name": "第二型海克特·德·玛力斯",
+            "star": 3
+        },
+        "58": {
+            "cost": 10,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_58.jpg",
+            "masterCardId": 58,
+            "name": "特异型乔治",
+            "star": 4
+        },
+        "57": {
+            "cost": 13,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_57.jpg",
+            "masterCardId": 57,
+            "name": "特异型猎户座",
+            "star": 4
+        },
+        "139": {
+            "cost": 3,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_139.jpg",
+            "masterCardId": 139,
+            "name": "第二型海琳",
+            "star": 1
+        },
+        "136": {
+            "cost": 10,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_136.jpg",
+            "masterCardId": 136,
+            "name": "第二型佩里亚丝",
+            "star": 4
+        },
+        "56": {
+            "cost": 10,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_56.jpg",
+            "masterCardId": 56,
+            "name": "特异型维尔薇尤",
+            "star": 3
+        },
+        "137": {
+            "cost": 11,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_137.jpg",
+            "masterCardId": 137,
+            "name": "第二型梅里奥特",
+            "star": 3
+        },
+        "64": {
+            "cost": 10,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_64.jpg",
+            "masterCardId": 64,
+            "name": "特异型鲁克蕾齐亚",
+            "star": 4
+        },
+        "65": {
+            "cost": 3,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_65.jpg",
+            "masterCardId": 65,
+            "name": "特殊型格林格莱特",
+            "star": 1
+        },
+        "62": {
+            "cost": 8,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_62.jpg",
+            "masterCardId": 62,
+            "name": "特异型黑沃尔",
+            "star": 3
+        },
+        "63": {
+            "cost": 17,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_63.jpg",
+            "masterCardId": 63,
+            "name": "特异型帕尔修斯",
+            "star": 5
+        },
+        "131": {
+            "cost": 5,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_131.jpg",
+            "masterCardId": 131,
+            "name": "第二型马尔科",
+            "star": 2
+        },
+        "60": {
+            "cost": 8,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_60.jpg",
+            "masterCardId": 60,
+            "name": "特异型迪特里希",
+            "star": 3
+        },
+        "130": {
+            "cost": 3,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_130.jpg",
+            "masterCardId": 130,
+            "name": "第二型库尔威奇",
+            "star": 2
+        },
+        "61": {
+            "cost": 12,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_61.jpg",
+            "masterCardId": 61,
+            "name": "特异型拿破仑",
+            "star": 4
+        },
+        "143": {
+            "cost": 6,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_143.jpg",
+            "masterCardId": 143,
+            "name": "支援型艾文",
+            "star": 3
+        },
+        "49": {
+            "cost": 5,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_49.jpg",
+            "masterCardId": 49,
+            "name": "支援型律涅特",
+            "star": 3
+        },
+        "144": {
+            "cost": 4,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_144.jpg",
+            "masterCardId": 144,
+            "name": "支援型雅格拉瓦丁",
+            "star": 2
+        },
+        "48": {
+            "cost": 14,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_48.jpg",
+            "masterCardId": 48,
+            "name": "第二型迪拿丹",
+            "star": 5
+        },
+        "145": {
+            "cost": 5,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_145.jpg",
+            "masterCardId": 145,
+            "name": "特殊型罗艾娜",
+            "star": 2
+        },
+        "146": {
+            "cost": 19,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_146.jpg",
+            "masterCardId": 146,
+            "name": "蓝帽子",
+            "star": 5
+        },
+        "147": {
+            "cost": 11,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_147.jpg",
+            "masterCardId": 147,
+            "name": "斯普林甘",
+            "star": 4
+        },
+        "45": {
+            "cost": 7,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_45.jpg",
+            "masterCardId": 45,
+            "name": "亚瑟 -技巧之场-",
+            "star": 3
+        },
+        "148": {
+            "cost": 14,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_148.jpg",
+            "masterCardId": 148,
+            "name": "莉娅南希",
+            "star": 5
+        },
+        "44": {
+            "cost": 10,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_44.jpg",
+            "masterCardId": 44,
+            "name": "第二型尤文",
+            "star": 4
+        },
+        "149": {
+            "cost": 19,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_149.jpg",
+            "masterCardId": 149,
+            "name": "希尔奇",
+            "star": 5
+        },
+        "47": {
+            "cost": 6,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_47.jpg",
+            "masterCardId": 47,
+            "name": "第二型卡尔迪斯",
+            "star": 1
+        },
+        "46": {
+            "cost": 6,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_46.jpg",
+            "masterCardId": 46,
+            "name": "第二型亚格拉文",
+            "star": 1
+        },
+        "51": {
+            "cost": 6,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_51.jpg",
+            "masterCardId": 51,
+            "name": "第二型凯尔丹",
+            "star": 1
+        },
+        "52": {
+            "cost": 11,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_52.jpg",
+            "masterCardId": 52,
+            "name": "第二型卡洛格雷南",
+            "star": 1
+        },
+        "53": {
+            "cost": 5,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_53.jpg",
+            "masterCardId": 53,
+            "name": "支援型洛蒂涅",
+            "star": 2
+        },
+        "54": {
+            "cost": 9,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_54.jpg",
+            "masterCardId": 54,
+            "name": "第二型马伯纳格林",
+            "star": 1
+        },
+        "140": {
+            "cost": 11,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_140.jpg",
+            "masterCardId": 140,
+            "name": "特殊型安波罗修",
+            "star": 1
+        },
+        "142": {
+            "cost": 3,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_142.jpg",
+            "masterCardId": 142,
+            "name": "第二型兰索尔",
+            "star": 2
+        },
+        "141": {
+            "cost": 5,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_141.jpg",
+            "masterCardId": 141,
+            "name": "支援型奥尔温",
+            "star": 1
+        },
+        "50": {
+            "cost": 13,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_50.jpg",
+            "masterCardId": 50,
+            "name": "外敌型波尔斯",
+            "star": 3
+        },
+        "281": {
+            "cost": 12,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_281.jpg",
+            "masterCardId": 281,
+            "name": "教练型斯巴达",
+            "star": 4
+        },
+        "280": {
+            "cost": 16,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_280.jpg",
+            "masterCardId": 280,
+            "name": "支援型索菲德",
+            "star": 4
+        },
+        "282": {
+            "cost": 5,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_282.jpg",
+            "masterCardId": 282,
+            "name": "支援型点心缇",
+            "star": 1
+        },
+        "288": {
+            "cost": 24,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_288.jpg",
+            "masterCardId": 288,
+            "name": "炎夏型菲",
+            "star": 6
+        },
+        "289": {
+            "cost": 16,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_289.jpg",
+            "masterCardId": 289,
+            "name": "炎夏型摩高斯",
+            "star": 4
+        },
+        "287": {
+            "cost": 16,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_287.jpg",
+            "masterCardId": 287,
+            "name": "第二型罗恩",
+            "star": 5
+        },
+        "271": {
+            "cost": 11,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_271.jpg",
+            "masterCardId": 271,
+            "name": "第二型妮丝",
+            "star": 4
+        },
+        "279": {
+            "cost": 9,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_279.jpg",
+            "masterCardId": 279,
+            "name": "第二型蒙特尔",
+            "star": 2
+        },
+        "109": {
+            "cost": 9,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_109.jpg",
+            "masterCardId": 109,
+            "name": "统御型桂妮薇儿",
+            "star": 4
+        },
+        "108": {
+            "cost": 3,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_108.jpg",
+            "masterCardId": 108,
+            "name": "第二型佩里诺亚",
+            "star": 1
+        },
+        "107": {
+            "cost": 13,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_107.jpg",
+            "masterCardId": 107,
+            "name": "第二型珀西瓦尔",
+            "star": 4
+        },
+        "106": {
+            "cost": 7,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_106.jpg",
+            "masterCardId": 106,
+            "name": "第二型塔奎恩",
+            "star": 2
+        },
+        "105": {
+            "cost": 6,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_105.jpg",
+            "masterCardId": 105,
+            "name": "第二型卡多",
+            "star": 1
+        },
+        "104": {
+            "cost": 4,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_104.jpg",
+            "masterCardId": 104,
+            "name": "第二型加隆",
+            "star": 2
+        },
+        "103": {
+            "cost": 6,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_103.jpg",
+            "masterCardId": 103,
+            "name": "第二型艾塔德",
+            "star": 3
+        },
+        "102": {
+            "cost": 9,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_102.jpg",
+            "masterCardId": 102,
+            "name": "支援型圣杯伊莱恩",
+            "star": 3
+        },
+        "99": {
+            "cost": 10,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_99.jpg",
+            "masterCardId": 99,
+            "name": "特异型卑弥呼",
+            "star": 4
+        },
+        "101": {
+            "cost": 14,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_101.jpg",
+            "masterCardId": 101,
+            "name": "支援型克莱尔",
+            "star": 6
+        },
+        "100": {
+            "cost": 9,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_100.jpg",
+            "masterCardId": 100,
+            "name": "支援型布兰奇芙蓉",
+            "star": 1
+        },
+        "98": {
+            "cost": 14,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_98.jpg",
+            "masterCardId": 98,
+            "name": "特异型甲斐姬",
+            "star": 4
+        },
+        "97": {
+            "cost": 20,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_97.jpg",
+            "masterCardId": 97,
+            "name": "特异型小灰人",
+            "star": 6
+        },
+        "391": {
+            "cost": 99,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_391.jpg",
+            "masterCardId": 391,
+            "name": "超级切尔莉",
+            "star": 3
+        },
+        "96": {
+            "cost": 16,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_96.jpg",
+            "masterCardId": 96,
+            "name": "特异型达芬奇",
+            "star": 5
+        },
+        "95": {
+            "cost": 7,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_95.jpg",
+            "masterCardId": 95,
+            "name": "特异型白雪公主",
+            "star": 3
+        },
+        "390": {
+            "cost": 99,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_390.jpg",
+            "masterCardId": 390,
+            "name": "切尔莉",
+            "star": 1
+        },
+        "94": {
+            "cost": 9,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_94.jpg",
+            "masterCardId": 94,
+            "name": "特异型圣诞老人",
+            "star": 3
+        },
+        "93": {
+            "cost": 7,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_93.jpg",
+            "masterCardId": 93,
+            "name": "特异型圣日耳曼",
+            "star": 3
+        },
+        "392": {
+            "cost": 99,
+            "group": "妖精",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_392.jpg",
+            "masterCardId": 392,
+            "name": "究极切尔莉",
+            "star": 5
+        },
+        "92": {
+            "cost": 11,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_92.jpg",
+            "masterCardId": 92,
+            "name": "特异型莎乐美",
+            "star": 3
+        },
+        "395": {
+            "cost": 22,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_395.jpg",
+            "masterCardId": 395,
+            "name": "异界型甜甜圈猫",
+            "star": 5
+        },
+        "91": {
+            "cost": 13,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_91.jpg",
+            "masterCardId": 91,
+            "name": "特异型克娄巴特拉",
+            "star": 3
+        },
+        "90": {
+            "cost": 9,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_90.jpg",
+            "masterCardId": 90,
+            "name": "特异型安托瓦内特",
+            "star": 4
+        },
+        "298": {
+            "cost": 25,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_298.jpg",
+            "masterCardId": 298,
+            "name": "炎夏型亚瑟 -技巧之场-",
+            "star": 6
+        },
+        "299": {
+            "cost": 22,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_299.jpg",
+            "masterCardId": 299,
+            "name": "炎夏型莉芙",
+            "star": 5
+        },
+        "88": {
+            "cost": 8,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_88.jpg",
+            "masterCardId": 88,
+            "name": "第二型哥鲁尼曼",
+            "star": 2
+        },
+        "89": {
+            "cost": 4,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_89.jpg",
+            "masterCardId": 89,
+            "name": "第二型梅利甘斯",
+            "star": 1
+        },
+        "197": {
+            "cost": 16,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_197.jpg",
+            "masterCardId": 197,
+            "name": "支援型罗索菲亚",
+            "star": 5
+        },
+        "191": {
+            "cost": 10,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_191.jpg",
+            "masterCardId": 191,
+            "name": "第二型拉瓦",
+            "star": 3
+        },
+        "190": {
+            "cost": 8,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_190.jpg",
+            "masterCardId": 190,
+            "name": "第二型巴基",
+            "star": 2
+        },
+        "640": {
+            "cost": 17,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_640.jpg",
+            "masterCardId": 640,
+            "name": "小小狂三",
+            "star": 5
+        },
+        "198": {
+            "cost": 11,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_198.jpg",
+            "masterCardId": 198,
+            "name": "第二型皮凯",
+            "star": 3
+        },
+        "199": {
+            "cost": 14,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_199.jpg",
+            "masterCardId": 199,
+            "name": "第二型杜提",
+            "star": 4
+        },
+        "639": {
+            "cost": 18,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_639.jpg",
+            "masterCardId": 639,
+            "name": "幻兽型拉妮娅",
+            "star": 5
+        },
+        "638": {
+            "cost": 15,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_638.jpg",
+            "masterCardId": 638,
+            "name": "学徒型月宫久理",
+            "star": 5
+        },
+        "635": {
+            "cost": 12,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_635.jpg",
+            "masterCardId": 635,
+            "name": "学徒型塔奇敏",
+            "star": 4
+        },
+        "636": {
+            "cost": 17,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_636.jpg",
+            "masterCardId": 636,
+            "name": "学徒型德斯迪奥",
+            "star": 5
+        },
+        "633": {
+            "cost": 19,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_633.jpg",
+            "masterCardId": 633,
+            "name": "学徒型赫嘉",
+            "star": 5
+        },
+        "634": {
+            "cost": 16,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_634.jpg",
+            "masterCardId": 634,
+            "name": "学徒型阿瓦娜",
+            "star": 5
+        },
+        "631": {
+            "cost": 20,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_631.jpg",
+            "masterCardId": 631,
+            "name": "学徒型阿瑞尔",
+            "star": 4
+        },
+        "632": {
+            "cost": 16,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_632.jpg",
+            "masterCardId": 632,
+            "name": "学徒型莫比尔菲",
+            "star": 5
+        },
+        "630": {
+            "cost": 22,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_630.jpg",
+            "masterCardId": 630,
+            "name": "学徒型琪妮安",
+            "star": 6
+        },
+        "262": {
+            "cost": 14,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_262.jpg",
+            "masterCardId": 262,
+            "name": "第二型艾伦",
+            "star": 5
+        },
+        "260": {
+            "cost": 6,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_260.jpg",
+            "masterCardId": 260,
+            "name": "第二型李尔德",
+            "star": 3
+        },
+        "660": {
+            "cost": 19,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_660.jpg",
+            "masterCardId": 660,
+            "name": "异界型御坂妹妹",
+            "star": 5
+        },
+        "661": {
+            "cost": 26,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_661.jpg",
+            "masterCardId": 661,
+            "name": "异界型御坂美琴 -体操服ver.-",
+            "star": 6
+        },
+        "662": {
+            "cost": 20,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_662.jpg",
+            "masterCardId": 662,
+            "name": "异界型茵蒂克丝 -起床时-",
+            "star": 5
+        },
+        "663": {
+            "cost": 16,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_663.jpg",
+            "masterCardId": 663,
+            "name": "异界型御坂美琴 -电击使-",
+            "star": 5
+        },
+        "664": {
+            "cost": 16,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_664.jpg",
+            "masterCardId": 664,
+            "name": "异界型神裂火织",
+            "star": 5
+        },
+        "665": {
+            "cost": 18,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_665.jpg",
+            "masterCardId": 665,
+            "name": "异界型御坂美琴 -黑子的偷拍-",
+            "star": 5
+        },
+        "666": {
+            "cost": 18,
+            "group": "魔法",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_666.jpg",
+            "masterCardId": 666,
+            "name": "异界型茵蒂克丝",
+            "star": 5
+        },
+        "667": {
+            "cost": 17,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_667.jpg",
+            "masterCardId": 667,
+            "name": "异界型 当麻&茵蒂克丝&美琴",
+            "star": 5
+        },
+        "367": {
+            "cost": 18,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_367.jpg",
+            "masterCardId": 367,
+            "name": "支援型阿尔凯",
+            "star": 4
+        },
+        "269": {
+            "cost": 15,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_269.jpg",
+            "masterCardId": 269,
+            "name": "第二型亚琪奈",
+            "star": 5
+        },
+        "268": {
+            "cost": 11,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_268.jpg",
+            "masterCardId": 268,
+            "name": "支援型伊利亚斯",
+            "star": 4
+        },
+        "659": {
+            "cost": 25,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_659.jpg",
+            "masterCardId": 659,
+            "name": "异界型御坂美琴&御坂妹妹",
+            "star": 6
+        },
+        "658": {
+            "cost": 17,
+            "group": "技巧",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_658.jpg",
+            "masterCardId": 658,
+            "name": "异界型御坂美琴 -电击解放-",
+            "star": 5
+        },
+        "351": {
+            "cost": 16,
+            "group": "剑术",
+            "imgUrl": "http://img.dwstatic.com/ma/zh_pic/face/face_351.jpg",
+            "masterCardId": 351,
+            "name": "学徒型夏娘",
+            "star": 4
+        }
+    },
+    "refreshTime": 1381324832305,
+    "total": 274
+}
