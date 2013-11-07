@@ -142,8 +142,47 @@ public class BattleService {
 			}
 		}
 	}
-	
-	private void rest(){
+
+	public List<Fairy> getFairyList() {
+		// 遍历妖精
+		String xmlResult = HttpClientHelper
+				.post("http://game2-CBT.ma.sdo.com:10001/connect/app/menu/fairyselect?cyt=1",
+						null);
+
+		List<Fairy> bosses = new ArrayList<Fairy>();
+
+		try {
+			SAXReader saxReader = new SAXReader();
+			Document document = saxReader.read(new ByteArrayInputStream(
+					xmlResult.getBytes("UTF-8")));
+			Node node = document
+					.selectSingleNode("/response/header/error/code");
+			if (null != node && "0".equals(node.getText())) {
+				List nodes = document
+						.selectNodes("/response/body/fairy_select/fairy_event");
+				for (int i = 0; i < nodes.size(); i++) {
+					Element element = (Element) nodes.get(i);
+					if ("1".equals(element.element("put_down").getText())) {
+						Fairy fairy = new Fairy();
+						fairy.setSeriald(Integer.parseInt((element
+								.element("fairy")).elementText("serial_id")));
+						fairy.setUserId(Integer.parseInt((element
+								.element("user")).elementText("id")));
+						bosses.add(fairy);
+					}
+				}
+			} else {
+				System.out.println("操作失败退出程序:"
+						+ document.selectSingleNode(
+								"/response/header/error/message").getText());
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return bosses;
+	}
+
+	private void rest() {
 		try {
 			Thread.sleep(5000l);
 		} catch (InterruptedException e) {
@@ -151,8 +190,8 @@ public class BattleService {
 			e.printStackTrace();
 		}
 	}
-	
-	private void rest(long timemili){
+
+	private void rest(long timemili) {
 		try {
 			Thread.sleep(timemili);
 		} catch (InterruptedException e) {
