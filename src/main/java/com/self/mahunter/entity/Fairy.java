@@ -6,6 +6,10 @@ public class Fairy {
 
 	private Integer userId;
 
+	private Integer level;
+
+	private Integer hp;
+
 	public Integer getSeriald() {
 		return seriald;
 	}
@@ -21,5 +25,20 @@ public class Fairy {
 	public void setUserId(Integer userId) {
 		this.userId = userId;
 	}
-	
+
+	public Integer getLevel() {
+		return level;
+	}
+
+	public void setLevel(Integer level) {
+		this.level = level;
+	}
+
+	public Integer getHp() {
+		return hp;
+	}
+
+	public void setHp(Integer hp) {
+		this.hp = hp;
+	}
 }

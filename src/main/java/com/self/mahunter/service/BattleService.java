@@ -24,6 +24,9 @@ public class BattleService {
 
 	private UserStateService userStateService = UserStateService.getInstance();
 
+	private BattleIntelligentService battleIntelligentService = BattleIntelligentService
+			.getInstance();
+
 	public static BattleService getInstance() {
 		return instance;
 	}
@@ -59,6 +62,8 @@ public class BattleService {
 	private class BattleThread implements Runnable {
 
 		int state = 0; // 0 未启动，1 已启动， 2 准备中止, 3已终止
+
+		String currentCards = null;
 
 		private boolean checkStopSignal() {
 			if (state == 2) {
@@ -117,16 +122,77 @@ public class BattleService {
 					e.printStackTrace();
 				}
 
+				if (checkStopSignal()) {
+					print("自动攻击已暂停");
+					return;
+				}
+
 				if (bosses.size() == 0) {
 					print("扫描结束，没有发现可以攻击的妖精");
 				} else {
 					print("扫描结束，发现可以攻击的妖精" + bosses.size() + "只：");
 					for (int i = 0; i < bosses.size(); i++) {
 
-						// 开始打怪
+						if (checkStopSignal()) {
+							print("自动攻击已暂停");
+							return;
+						}
+
 						Fairy fairy = bosses.get(i);
 
+						// 检查一下血量和等级
 						Map<String, String> params = new HashMap<String, String>();
+						params.put("serial_id", "" + fairy.getSeriald());
+						params.put("user_id", "" + fairy.getUserId());
+						xmlResult = HttpClientHelper
+								.post("http://game2-CBT.ma.sdo.com:10001/connect/app/exploration/fairyhistory?cyt=1",
+										params);
+
+						try {
+							SAXReader saxReader = new SAXReader();
+							Document document = saxReader
+									.read(new ByteArrayInputStream(xmlResult
+											.getBytes("UTF-8")));
+							Node node = document
+									.selectSingleNode("/response/header/error/code");
+							if (null != node && "0".equals(node.getText())) {
+								Element fairyHistory = (Element) document
+										.selectSingleNode("/response/body/fairy_history/fairy");
+								int level = Integer.parseInt(fairyHistory
+										.element("lv").getText());
+								int hp = Integer.parseInt(fairyHistory.element(
+										"hp").getText());
+								fairy.setHp(hp);
+								fairy.setLevel(level);
+							} else {
+								System.out
+										.println("操作失败退出程序:"
+												+ document
+														.selectSingleNode(
+																"/response/header/error/message")
+														.getText());
+							}
+						} catch (Exception e) {
+							e.printStackTrace();
+						}
+
+						// 设置卡组
+						String cards = battleIntelligentService.getCards(fairy);
+						if (null != cards) {
+							String[] cardSplited = cards.split(",");
+							String leader = cardSplited[0];
+
+							params.clear();
+							params.put("C", cards);
+							params.put("lr", leader);
+
+							xmlResult = HttpClientHelper
+									.post("http://game2-CBT.ma.sdo.com:10001/connect/app/cardselect/savedeckcard?cyt=1",
+											params);
+						}
+
+						// 打怪
+						params.clear();
 						params.put("serial_id", "" + fairy.getSeriald());
 						params.put("user_id", "" + fairy.getUserId());
 
@@ -181,6 +247,7 @@ public class BattleService {
 		}
 		return bosses;
 	}
+
 
 	private void rest() {
 		try {
