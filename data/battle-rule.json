@@ -1,0 +1,17 @@
+{
+	"rules": [
+		{
+			"minHp": 0,
+			"maxHp": 30000,
+			"minLv": 0,
+			"maxLv": 1000,
+			"cards": "a,b,empty,empty"
+		}, {
+			"minHp": 30000,
+			"maxHp": 60000,
+			"minLv": 0,
+			"maxLv": 1000,
+			"cards": "d,c,empty,empty"
+		},
+	]
+}

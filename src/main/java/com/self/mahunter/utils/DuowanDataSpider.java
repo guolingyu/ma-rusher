@@ -33,13 +33,15 @@ public class DuowanDataSpider {
 			"http://db.duowan.com/ma/cn/card/list/eyJwIjoxNiwic29ydCI6ImNvbW1vbkx2MUFUSy5hc2MifQ_3__3_.html",
 			"http://db.duowan.com/ma/cn/card/list/eyJwIjoxNywic29ydCI6ImNvbW1vbkx2MUFUSy5hc2MifQ_3__3_.html",
 			"http://db.duowan.com/ma/cn/card/list/eyJwIjoxOCwic29ydCI6ImNvbW1vbkx2MUFUSy5hc2MifQ_3__3_.html",
-			"http://db.duowan.com/ma/cn/card/list/eyJwIjoxOSwic29ydCI6ImNvbW1vbkx2MUFUSy5hc2MifQ_3__3_.html" };
+			"http://db.duowan.com/ma/cn/card/list/eyJwIjoxOSwic29ydCI6ImNvbW1vbkx2MUFUSy5hc2MifQ_3__3_.html",
+			"http://db.duowan.com/ma/cn/card/list/eyJwIjoyMCwic29ydCI6ImNvbW1vbkx2MUFUSy5hc2MifQ_3__3_.html",
+			"http://db.duowan.com/ma/cn/card/list/eyJwIjoyMSwic29ydCI6ImNvbW1vbkx2MUFUSy5hc2MifQ_3__3_.html" };
 
 	public static void main(String[] args) throws IOException {
 		CardDatabase database = new CardDatabase();
 		database.setRefreshTime(System.currentTimeMillis());
 		database.setCardmap(new HashMap<String, CardData>());
-		
+
 		for (int i = 0; i < DUOWAN_CARD_DATA_PAGES.length; i++) {
 			String url = DUOWAN_CARD_DATA_PAGES[i];
 			Document doc = Jsoup.connect(url).get();
@@ -59,13 +61,13 @@ public class DuowanDataSpider {
 				cardData.setGroup(element.child(4).text());
 
 				System.out.println(cardData);
-				database.getCardmap().put(cardData.getMasterCardId().toString(),
-						cardData);
+				database.getCardmap().put(
+						cardData.getMasterCardId().toString(), cardData);
 			}
 		}
-		
+
 		database.setTotal(database.getCardmap().size());
-		
+
 		String json = database.toJSONString();
 		System.out.println(json);
 	}

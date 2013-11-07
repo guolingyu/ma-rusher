@@ -15,7 +15,7 @@ public class CardDatabaseService {
 
 	private CardDatabaseService() {
 		String filePath = System.getProperty("user.dir")
-				+ "/data/carddata.json";
+				+ "/data/card-data.json";
 		File file = new File(filePath);
 		if (!file.exists()) {
 			return;
