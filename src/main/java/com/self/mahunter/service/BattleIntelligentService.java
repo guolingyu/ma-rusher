@@ -75,6 +75,11 @@ public class BattleIntelligentService {
 		return null;
 	}
 
+	public void addRule(BattleRule rule) {
+		rules.add(rule);
+		save();
+	}
+
 	public void save() {
 		JSONObject json = new JSONObject();
 		json.put("rules", rules);

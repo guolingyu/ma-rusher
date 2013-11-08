@@ -1,17 +1,1 @@
-{
-	"rules": [
-		{
-			"minHp": 0,
-			"maxHp": 30000,
-			"minLv": 0,
-			"maxLv": 1000,
-			"cards": "a,b,empty,empty"
-		}, {
-			"minHp": 30000,
-			"maxHp": 60000,
-			"minLv": 0,
-			"maxLv": 1000,
-			"cards": "d,c,empty,empty"
-		},
-	]
-}
+{"rules":[{"cards":"a,b,empty,empty","maxHp":30000,"maxLv":1000,"minHp":0,"minLv":0},{"cards":"d,c,empty,empty","maxHp":60000,"maxLv":1000,"minHp":30000,"minLv":0},{"cards":"67807879,67807877","maxHp":100000,"maxLv":0,"minHp":0,"minLv":0},{"cards":"67807879,67807877","maxHp":100000,"maxLv":0,"minHp":0,"minLv":0},{"cards":"63297086,63296258","maxHp":100000,"maxLv":1000,"minHp":0,"minLv":1}]}

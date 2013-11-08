@@ -12,6 +12,7 @@ import org.eclipse.swt.widgets.Shell;
 
 import com.self.mahunter.function.GetCardsFunction;
 import com.self.mahunter.function.LoginFunction;
+import com.self.mahunter.function.SaveBattleSettingFunction;
 import com.self.mahunter.function.StartBattleFunction;
 import com.self.mahunter.function.StopBattleFunction;
 import com.self.mahunter.service.BattleService;
@@ -69,6 +70,8 @@ public class MainWnd {
 				"startBattle");
 		final BrowserFunction function4 = new StopBattleFunction(browser,
 				"stopBattle");
+		final BrowserFunction function5 = new SaveBattleSettingFunction(browser,
+				"saveCards");
 
 		BattleService.getInstance().setBrowser(browser);
 
