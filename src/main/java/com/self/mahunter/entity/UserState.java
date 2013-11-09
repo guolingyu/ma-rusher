@@ -1,6 +1,12 @@
 package com.self.mahunter.entity;
 
 public class UserState {
+	
+	private String loginName;
+	
+	private String password;
+	
+	private int server;
 
 	private String name;
 
@@ -15,6 +21,22 @@ public class UserState {
 	private int maxBC;
 
 	private long refreshTime;
+	
+	public String getLoginName() {
+		return loginName;
+	}
+
+	public void setLoginName(String loginName) {
+		this.loginName = loginName;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
 
 	public String getName() {
 		return name;
@@ -78,6 +100,14 @@ public class UserState {
 				+ ", currentAP=" + currentAP + ", maxAP=" + maxAP
 				+ ", currentBC=" + currentBC + ", maxBC=" + maxBC
 				+ ", refreshTime=" + refreshTime + "]";
+	}
+
+	public int getServer() {
+		return server;
+	}
+
+	public void setServer(int server) {
+		this.server = server;
 	}
 
 }

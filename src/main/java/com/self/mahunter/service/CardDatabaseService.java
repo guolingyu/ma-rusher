@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
 
+import com.self.mahunter.entity.CardData;
 import com.self.mahunter.entity.CardDatabase;
 
 public class CardDatabaseService {
@@ -42,8 +43,14 @@ public class CardDatabaseService {
 		return database;
 	}
 
+	public CardData getCardData(String serialId) {
+		return database.getCardmap().get(serialId);
+	}
+
 	public static void main(String[] args) {
-		CardDatabaseService cardDatabaseService = CardDatabaseService.getInstance();
-		System.out.println(cardDatabaseService.getCardDatabase().getCardmap().get("190"));
+		CardDatabaseService cardDatabaseService = CardDatabaseService
+				.getInstance();
+		System.out.println(cardDatabaseService.getCardDatabase().getCardmap()
+				.get("190"));
 	}
 }

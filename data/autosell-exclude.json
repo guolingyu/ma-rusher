@@ -1,0 +1,41 @@
+{
+    "exclude": [
+        {
+            "name": "第二型毕斯克拉乌莉特",
+            "mastercardid": 124
+        }, {
+            "name": "支援型丽奈特",
+            "mastercardid": 8
+        }, {
+            "name": "支援型律涅特",
+            "mastercardid": 49
+        }, {
+            "name": "第二型妮丝",
+            "mastercardid": 271
+        }, {
+            "name": "特异型安托瓦内特",
+            "mastercardid": 90
+        }, {
+            "name": "支援型甜心",
+            "mastercardid": 176
+        }, {
+            "name": "支援型芙瓦妮塔",
+            "mastercardid": 177
+        }, {
+            "name": "支援型提妮亚",
+            "mastercardid": 178
+        }, {
+            "name": "炎夏型加拉哈德",
+            "mastercardid": 308
+        }, {
+            "name": "学徒型克莱尔",
+            "mastercardid": 341
+        }, {
+            "name": "切尔莉",
+            "mastercardid": 390
+        }, {
+            "name": "超级切尔莉",
+            "mastercardid": 391
+        }
+    ]
+}

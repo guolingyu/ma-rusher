@@ -130,4 +130,6 @@ public class Card {
 				+ plusLimitCount + ", name=" + name + ", imgUrl=" + imgUrl
 				+ ", star=" + star + ", cost=" + cost + "]";
 	}
+
+	
 }

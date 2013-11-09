@@ -17,6 +17,8 @@ import org.eclipse.swt.widgets.Display;
 
 import com.self.mahunter.entity.Fairy;
 import com.self.mahunter.utils.HttpClientHelper;
+import com.self.mahunter.utils.MAApiHelper;
+import com.self.mahunter.utils.MAApiResult;
 
 public class BattleService {
 
@@ -26,6 +28,8 @@ public class BattleService {
 
 	private BattleIntelligentService battleIntelligentService = BattleIntelligentService
 			.getInstance();
+	
+	private CardSellService cardSellService = CardSellService.getInstance();
 
 	public static BattleService getInstance() {
 		return instance;
@@ -81,6 +85,9 @@ public class BattleService {
 					print("自动攻击已暂停");
 					return;
 				}
+
+				MAApiHelper apiHelper = userStateService.getApiHelper();
+				MAApiResult apiResult = null;
 
 				// 遍历妖精
 				String xmlResult = HttpClientHelper
@@ -181,9 +188,13 @@ public class BattleService {
 						if (null != cards) {
 							String[] cardSplited = cards.split(",");
 							String leader = cardSplited[0];
+							StringBuilder sb = new StringBuilder(cards);
+							for (int j = 0; j < 12 - cardSplited.length; j++) {
+								sb.append(",empty");
+							}
 
 							params.clear();
-							params.put("C", cards);
+							params.put("C", sb.toString());
 							params.put("lr", leader);
 
 							xmlResult = HttpClientHelper
@@ -196,10 +207,47 @@ public class BattleService {
 						params.put("serial_id", "" + fairy.getSeriald());
 						params.put("user_id", "" + fairy.getUserId());
 
-						xmlResult = HttpClientHelper
-								.post("http://game2-CBT.ma.sdo.com:10001/connect/app/exploration/fairybattle?cyt=1",
-										params);
-						System.out.println(xmlResult);
+						apiResult = apiHelper.call(
+								"/connect/app/exploration/fairybattle?cyt=1",
+								params);
+						if (0 == apiResult.getError()) {
+							boolean ifSuccess = "1"
+									.equals(apiResult
+											.query("/response/body/battle_result/winner"));
+							String discover = apiResult
+									.query("/response/body/explore/fairy/attacker_history/attacker[discoverer=1]/user_name");
+							String fairyName = apiResult
+									.query("/response/body/explore/fairy/name");
+							int hpLeft = Integer.parseInt(apiResult
+									.query("/response/body/explore/fairy/hp"));
+							print("攻击妖精:[" + fairyName + "],lv:["
+									+ fairy.getLevel() + "], hp:["
+									+ fairy.getHp() + "],发现人:[" + discover
+									+ "],是否消灭:[" + ifSuccess + "], 剩余HP：["
+									+ hpLeft + "]");
+						} else if (1050 == apiResult.getError()) {
+							// 自动吃BP药
+							params.clear();
+							params.put("item_id", "2");
+
+							apiResult = apiHelper.call(
+									"/connect/app/item/use?cyt=1", params);
+
+							if (0 == apiResult.getError()) {
+								print("吃BP药成功");
+							} else {
+								print("吃BP药失败：" + apiResult.getErrorMessage());
+							}
+
+						} else if (8000 == apiResult.getError()) {
+							//卡满自动卖
+							cardSellService.autoSellCard();
+						} else if (9000 == apiResult.getError()) {
+							//被掉线了，可能是手机登陆游戏了
+							rest(10 * 60 * 1000l);
+						} else {
+							print("没能成功战斗:" + apiResult.getErrorMessage());
+						}
 						rest();
 					}
 				}
@@ -248,10 +296,9 @@ public class BattleService {
 		return bosses;
 	}
 
-
 	private void rest() {
 		try {
-			Thread.sleep(5000l);
+			Thread.sleep(10000l);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -268,6 +315,7 @@ public class BattleService {
 	}
 
 	private void print(final String msg) {
+		System.out.println(msg);
 		Display.getDefault().syncExec(new Runnable() {
 			public void run() {
 				browser.execute("appendBattleInfo(\"" + msg + "\")");

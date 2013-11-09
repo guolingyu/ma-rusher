@@ -2,6 +2,7 @@ package com.self.mahunter.service;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 import net.sf.json.JSONArray;
@@ -57,10 +58,10 @@ public class BattleIntelligentService {
 			if (null != rule.getMinHp() && rule.getMinHp() > fairy.getHp()) {
 				continue;
 			}
-			if (null != rule.getMaxHp() && rule.getMaxHp() < fairy.getHp()) {
+			if (null != rule.getMaxHp() && 0 != rule.getMaxHp() && rule.getMaxHp() < fairy.getHp()) {
 				continue;
 			}
-			if (null != rule.getMaxLv() && rule.getMaxLv() < fairy.getLevel()) {
+			if (null != rule.getMaxLv() && 0 != rule.getMaxLv() && rule.getMaxLv() < fairy.getLevel()) {
 				continue;
 			}
 			if (null != rule.getMinLv() && rule.getMinLv() > fairy.getLevel()) {
@@ -76,6 +77,9 @@ public class BattleIntelligentService {
 	}
 
 	public void addRule(BattleRule rule) {
+		if (null == rules) {
+			rules = new ArrayList<BattleRule>();
+		}
 		rules.add(rule);
 		save();
 	}
