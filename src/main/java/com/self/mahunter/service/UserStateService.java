@@ -158,11 +158,13 @@ public class UserStateService {
 
 	public boolean refreshUserStatus() {
 		int server = userState.getServer();
+		String loginName = userState.getLoginName();
+		String password = userState.getPassword();
 		setApiHelper(new MAApiHelper(server));
 
 		Map<String, String> params = new HashMap<String, String>();
-		params.put("login_id", userState.getLoginName());
-		params.put("password", userState.getPassword());
+		params.put("login_id", loginName);
+		params.put("password", password);
 
 		MAApiResult apiResult = getApiHelper().call("/connect/app/login?cyt=1",
 				params);
@@ -171,8 +173,8 @@ public class UserStateService {
 
 			// 获取用户信息
 			userState = new UserState();
-			userState.setLoginName(userState.getLoginName());
-			userState.setPassword(userState.getPassword());
+			userState.setLoginName(loginName);
+			userState.setPassword(password);
 			userState.setServer(server);
 			userState.setName(apiResult
 					.query("/response/header/your_data/name"));
