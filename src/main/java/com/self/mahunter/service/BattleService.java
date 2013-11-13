@@ -28,7 +28,7 @@ public class BattleService {
 
 	private BattleIntelligentService battleIntelligentService = BattleIntelligentService
 			.getInstance();
-	
+
 	private CardSellService cardSellService = CardSellService.getInstance();
 
 	public static BattleService getInstance() {
@@ -240,10 +240,16 @@ public class BattleService {
 							}
 
 						} else if (8000 == apiResult.getError()) {
-							//卡满自动卖
-							cardSellService.autoSellCard();
+							if ("现在无法进行战斗".equals(apiResult.getErrorMessage())) {
+								// 如果只是无法战斗
+								// do nothing
+							} else {
+								// 卡满自动卖
+								cardSellService.autoSellCard();
+							}
+
 						} else if (9000 == apiResult.getError()) {
-							//被掉线了，可能是手机登陆游戏了
+							// 被掉线了，可能是手机登陆游戏了
 							rest(10 * 60 * 1000l);
 						} else {
 							print("没能成功战斗:" + apiResult.getErrorMessage());
