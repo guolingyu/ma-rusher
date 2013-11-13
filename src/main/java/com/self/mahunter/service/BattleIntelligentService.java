@@ -96,6 +96,7 @@ public class BattleIntelligentService {
 			e.printStackTrace();
 		}
 	}
+	
 
 	public static void main(String[] args) {
 		BattleIntelligentService service = BattleIntelligentService
