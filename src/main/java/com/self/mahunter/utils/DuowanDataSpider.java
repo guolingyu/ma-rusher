@@ -35,7 +35,8 @@ public class DuowanDataSpider {
 			"http://db.duowan.com/ma/cn/card/list/eyJwIjoxOCwic29ydCI6ImNvbW1vbkx2MUFUSy5hc2MifQ_3__3_.html",
 			"http://db.duowan.com/ma/cn/card/list/eyJwIjoxOSwic29ydCI6ImNvbW1vbkx2MUFUSy5hc2MifQ_3__3_.html",
 			"http://db.duowan.com/ma/cn/card/list/eyJwIjoyMCwic29ydCI6ImNvbW1vbkx2MUFUSy5hc2MifQ_3__3_.html",
-			"http://db.duowan.com/ma/cn/card/list/eyJwIjoyMSwic29ydCI6ImNvbW1vbkx2MUFUSy5hc2MifQ_3__3_.html" };
+			"http://db.duowan.com/ma/cn/card/list/eyJwIjoyMSwic29ydCI6ImNvbW1vbkx2MUFUSy5hc2MifQ_3__3_.html",
+			"http://db.duowan.com/ma/cn/card/list/eyJwIjoyMiwic29ydCI6ImNvbW1vbkx2MUFUSy5hc2MifQ_3__3_.html" };
 
 	public static void main(String[] args) throws IOException {
 		CardDatabase database = new CardDatabase();

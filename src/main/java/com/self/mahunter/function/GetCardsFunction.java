@@ -37,6 +37,11 @@ public class GetCardsFunction extends BrowserFunction {
 	private class CardCostComparator implements Comparator<Card> {
 
 		public int compare(Card o1, Card o2) {
+			if (null == o1 || null == o1.getCost()) {
+				return -1;
+			} else if (null == o2 || null == o2.getCost()) {
+				return 1;
+			}
 			if (o1.getCost() > o2.getCost()) {
 				return 1;
 			} else if (o1.getCost() == o2.getCost()) {
