@@ -19,7 +19,7 @@ public class Test {
 
 	private static final int card_cost = 77;
 
-	private static final int MAX_BC_COST = 30;
+	private static final int MAX_BC_COST = 20;
 
 	public static void main(String[] args) throws UnsupportedEncodingException,
 			DocumentException, InterruptedException {
@@ -37,19 +37,18 @@ public class Test {
 		MAApiResult apiResult = apiHelper.call("/connect/app/login?cyt=1",
 				params);
 
-		params.clear();
-		params.put("event_id", "" + event_id);
-		params.put("move", "0");
-
-		apiResult = apiHelper.call("/connect/app/battle/battle_userlist?cyt=1",
-				params);
-
-		if (apiResult.getError() != 0) {
-			return;
-		}
-
 		int bcItemCount = 0;
 		while (true) {
+			params.clear();
+			params.put("event_id", "" + event_id);
+			params.put("move", "0");
+
+			apiResult = apiHelper.call(
+					"/connect/app/battle/battle_userlist?cyt=1", params);
+
+			if (apiResult.getError() != 0) {
+				return;
+			}
 
 			List nodes = apiResult.getData().selectNodes(
 					"/response/body/battle_userlist/user_list/user");
@@ -84,10 +83,11 @@ public class Test {
 				user.setLeaderCardStar(carddata.getStar());
 
 				/**
-				 * 如果用户的排名大于10000，且头像卡牌的cost不超过20，则进行PK
+				 * 如果用户的排名大于10000，且头像卡牌的cost不超过20，且不是狼娘做头像，则进行PK
 				 * 
 				 */
-				if (user.getRank() > 10000 && user.getLeaderCardCost() <= 20) {
+				if (user.getRank() > 10000 && user.getLeaderCardCost() <= 20
+						&& user.getLeadCardMasterId() != 124) {
 					users.add(user);
 				}
 
